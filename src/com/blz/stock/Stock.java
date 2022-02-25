@@ -1,4 +1,4 @@
-package com.blz.practice;
+package com.blz.stock;
 
 public class Stock {
 	// instance variables(declared inside class only)
@@ -18,7 +18,7 @@ public class Stock {
 		this.sharePrice = sharePrice;
 	}
 
-	// Apply getters and setters
+	// Applying getters and setters
 	public String getStockNames() {
 		return stockNames;
 	}
