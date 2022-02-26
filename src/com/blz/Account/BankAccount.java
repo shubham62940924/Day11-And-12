@@ -16,8 +16,6 @@ public class BankAccount {
 	public BankAccount(double intialBalance) {
 		balance = intialBalance;
 
-		accountNumber = lastAccountNumber + 1;
-		lastAccountNumber = accountNumber;
 	}
 
 	public void debit(double balance) {
@@ -43,14 +41,6 @@ public class BankAccount {
 			balance -= withdrawAmount;
 			return true;
 		}
-	}
-
-	public int getNumber() {
-		return accountNumber;
-	}
-
-	public double getBalance() {
-		return balance;
 	}
 
 	public static void main(String[] args) {

@@ -40,4 +40,9 @@ public class CompanyShares {
 	public void setDat_time(ArrayList<LocalDateTime> dat_time) {
 		this.dat_time = dat_time;
 	}
+
+	public void setStock_val(boolean b) {
+		// TODO Auto-generated method stub
+
+	}
 }
