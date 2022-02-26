@@ -1,4 +1,4 @@
-package com.blz.practice;
+package com.blz.Account;
 
 import java.util.Scanner;
 
