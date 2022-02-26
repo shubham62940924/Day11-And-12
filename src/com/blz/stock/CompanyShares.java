@@ -1,4 +1,4 @@
-package com.blz.practice;
+package com.blz.stock;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
