@@ -1,4 +1,4 @@
-package com.blz.stock;
+package com.blz.practice;
 
 public class Stock {
 	// instance variables(declared inside class only)
