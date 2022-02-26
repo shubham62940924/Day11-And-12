@@ -22,7 +22,7 @@ public class BankAccount {
 		System.out.println("enter ammount to withdraw");
 		double withdraw = scanner.nextDouble();
 		if (withdraw > balance)
-			System.out.println("withdraw exceeds the balance please enter correct ammount");
+			System.out.println("withdraw exceeds the balance please enter correct  ammount");
 		else
 			balance = balance - withdraw;
 		System.out.println("Remaining balance is " + balance);
